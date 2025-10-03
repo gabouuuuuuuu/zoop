@@ -18,10 +18,10 @@ def print_logo():
 
 def show_menu():
     print(Fore.YELLOW + "Choisis une plateforme :")
-    print("  1. YouTube")
-    print("  2. TikTok")
-    print("  3. Instagram")
-    print("  0. Quitter\n")
+    print("  1 = YouTube")
+    print("  2 = TikTok")
+    print("  3 = Instagram")
+    print("  0 = Quitter\n")
 
 def get_url():
     return input(Fore.WHITE + "\nEntre l'URL de la vidéo : ").strip()
